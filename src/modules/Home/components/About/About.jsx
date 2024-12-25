@@ -1,10 +1,10 @@
 import { Col, Container, Image, Row } from "react-bootstrap";
 import AboutAvatar from "../../../../assets/bilal-avatar-banner.jpeg";
 import styles from "./style.module.css";
-import GitHubIcon from "../../../../assets/svg/GitHubIcon";
-import LinkedinIcon from "../../../../assets/svg/LinkedinIcon";
-import EmailIcon from "../../../../assets/svg/EmailIcon";
-import PhoneIcon from "../../../../assets/svg/PhoneIcon";
+// import GitHubIcon from "../../../../assets/svg/GitHubIcon";
+// import LinkedinIcon from "../../../../assets/svg/LinkedinIcon";
+// import EmailIcon from "../../../../assets/svg/EmailIcon";
+// import PhoneIcon from "../../../../assets/svg/PhoneIcon";
 
 const About = () => {
   return (
