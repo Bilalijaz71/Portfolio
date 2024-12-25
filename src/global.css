@@ -1,0 +1,224 @@
+:root {
+  --bColor: #d3d3d382;
+  --downLoadBtn: #fafafa;
+  --downLoadBtnHover: #f4f4f5;
+  --mutedText: #52525b;
+  --showProject: #a1a1aa;
+  --zinc: #fafafa;
+  --teel: #38b2ac;
+  --dark: #000000;
+  --darkMode: #18181b;
+  --changeModeBtn: #252529;
+  --whiteText: #ffffff;
+  --darkModeHover: #27272a;
+}
+
+body * {
+  margin-bottom: 0px !important;
+  font-family: "Roboto", sans-serif;
+}
+
+/* dark mode */
+body.dark-mode {
+  background-color: var(--darkMode);
+}
+
+.change-Mode {
+  border: 1px solid var(--bColor);
+  width: 48px;
+  height: 40px;
+  background-color: var(--whiteText);
+}
+
+.dark-mode .change-Mode {
+  background-color: var(--changeModeBtn);
+  border-color: var(--changeModeBtn);
+}
+
+.dark-mode .change-Mode:hover {
+  border-color: var(--bColor);
+}
+
+.dark-mode .navList li a {
+  color: var(--whiteText);
+}
+
+.dark-mode .dark-Nav {
+  background-color: var(--changeModeBtn);
+  border-color: var(--changeModeBtn);
+}
+
+.dark-mode .profileAvatar {
+  border: 4px solid var(--changeModeBtn);
+  outline: none;
+}
+
+.dark-mode h1 {
+  color: var(--whiteText);
+}
+
+body.dark-mode .text-muted {
+  color: var(--showProject) !important;
+}
+
+.dark-mode .downLoadCVBtn {
+  background-color: var(--changeModeBtn);
+  color: var(--showProject) !important;
+}
+
+.dark-mode .downLoadCVBtn:hover {
+  background-color: var(--darkModeHover);
+  color: var(--whiteText) !important;
+}
+
+.dark-mode h6 {
+  color: var(--whiteText);
+}
+
+.dark-mode h2 {
+  color: var(--whiteText);
+}
+
+.dark-mode .projectCard {
+  background-color: transparent;
+}
+
+.dark-mode .projectCard:hover {
+  background-color: var(--changeModeBtn);
+}
+
+.dark-mode h4 {
+  color: var(--whiteText);
+}
+
+/* dark mode */
+
+body .text-muted {
+  color: var(--mutedText) !important;
+}
+
+.light-Nav {
+  border: 1px solid var(--bColor);
+}
+
+body h2 {
+  font-size: 2.5rem;
+}
+
+.navList li {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.navList li a {
+  color: var(--dark);
+}
+
+.navList li a:hover {
+  color: var(--teel);
+}
+
+.navList li.active a {
+  color: var(--teel);
+}
+
+.navList li.active.borderBottom {
+  border-bottom: 1px solid var(--teel);
+}
+
+body .card {
+  border-color: var(--bColor);
+}
+
+.companyAvatar {
+  border: 1px solid var(--bColor);
+  width: 50px;
+  height: 50px;
+}
+
+.companyAvatar img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
+.dark-mode .companyAvatar img {
+  border-radius: 50%;
+  background-color: var(--whiteText);
+}
+
+.dark-mode .companyAvatar svg g {
+  fill: var(--whiteText);
+}
+
+.workDetail h6 {
+  font-size: 14px;
+}
+
+.workDetail p {
+  font-size: 13px;
+}
+
+.workTimeSpan p {
+  font-size: 13px;
+}
+
+.downLoadCVBtn {
+  background-color: var(--downLoadBtn);
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.downLoadCVBtn:hover {
+  background-color: var(--downLoadBtnHover);
+  transition: 0.3s;
+}
+
+.projectDescription {
+  font-size: 14px;
+}
+
+p {
+  line-height: 28px;
+}
+
+.showProjectBtn {
+  font-weight: 600;
+  color: var(--showProject);
+  font-size: 14px;
+}
+
+body .projectCard {
+  border-radius: 18px;
+}
+
+.projectCard:hover {
+  background-color: var(--zinc);
+}
+
+.projectCard:hover .showProjectBtn {
+  color: var(--teel);
+}
+
+.copyRights {
+  color: var(--showProject);
+  font-size: 14px;
+}
+
+.footer .container {
+  border-top: 1px solid var(--bColor);
+}
+
+@media only screen and (max-width: 1200px) {
+  .skills-Wrapper h4 {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .skills-Wrapper h4 {
+    font-size: 16px;
+  }
+}
